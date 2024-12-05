@@ -14,7 +14,7 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 ```
 * Build MongoDB image.
 ```
-docker build -t 315069654700.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.0.0 .
+docker build -t 315069654700.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/mongodb:v1.0.2 .
 ```
 * Push image
 ```
